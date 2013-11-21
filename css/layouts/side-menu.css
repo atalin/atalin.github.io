@@ -1,6 +1,14 @@
 body {
-    color: #777;
+    color: #000;
+    background-color: #667c93;
 }
+
+a:link {color:#000;}      /* unvisited link */
+a:visited {color:#000;}  /* visited link */
+a:hover {color:#000;}  /* mouse over link */
+a:active {color:#000;}  /* selected link */
+
+
 
 /*
 Add transition to containers so they can push in and out.
@@ -36,7 +44,7 @@ The content `<div>` is where all your content goes.
 
 .header {
      margin: 0;
-     color: #333;
+     color: #000;
      text-align: center;
      padding: 2.5em 2em 0;
      border-bottom: 1px solid #eee;
@@ -48,7 +56,7 @@ The content `<div>` is where all your content goes.
     }
      .header h2 {
         font-weight: 300;
-        color: #ccc;
+        color: #000;
         padding: 0;
         margin-top: 0;
     }
@@ -56,7 +64,7 @@ The content `<div>` is where all your content goes.
 .content-subhead {
     margin: 50px 0 20px 0;
     font-weight: 300;
-    color: #888;
+    color: #000;
 }
 
 /*
@@ -101,14 +109,14 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     */
     #menu .pure-menu ul,
     #menu .pure-menu .menu-item-divided {
-        border-top: 1px solid #333;
+        border-top: 1px solid #0E2863;
     }
         /*
         Change color of the anchor links on hover/focus.
         */
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
-            background: #333;
+            background: #254694;
         }
 
     /*
@@ -116,7 +124,7 @@ the menu have 100% height and be fixed on the page as the rest of it scrolls.
     */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: #1f8dd6;
+        background: #0A0D12;
     }
         /*
         This styles a link within a selected menu item `<li>`.
